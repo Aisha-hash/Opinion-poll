@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <script src="./assets/js/index.js" defer type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Opinion Poll</h1>
+    </header>
+
+    <main>
+        <div class="poll-container">
+            <h3>What is your favorite color?</h3>
+            <form id="poll-form">
+                <label>
+                    <input type="radio" name="color" value="Red" required> Red
+                </label><br>
+                <label>
+                    <input type="radio" name="color" value="Blue"> Blue
+                </label><br>
+                <label>
+                    <input type="radio" name="color" value="Green"> Green
+                </label><br>
+                <label>
+                    <input type="radio" name="color" value="Yellow"> Yellow
+                </label><br>
+                <button type="submit">Vote</button>
+            </form>
+        </div>
+        <div class="results-container">
+            <h3>Live Results:</h3>
+            <div id="results"></div>
+        </div>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
